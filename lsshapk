@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.8",
+  "Version": "1.0.9",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + SSLPAY
@@ -56,14 +56,14 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
       "PASS": ""
     },
 {
-      "Name": "SERVIDOR L",
+      "Name": "SERVIDOR L | FREE",
       "TYPE": "free",
       "FLAG": "ca.png",
       "ServerIP": "sshws-ca.serverkit.me",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "",
-      "PASS": ""
+      "USER": "lionssh-naldogay",
+      "PASS": "123456"
     },
   ],
   "Networks": [
