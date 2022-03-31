@@ -1,6 +1,17 @@
 {
   "Version": "1.0.2",
-  "ReleaseNotes": "ATUALIZAÇÂO DAS CONEXÕES...",
+  "ReleaseNotes": "🔰 ESTABILIZAÇÃO
+🔰 VIVO / OI / TIM / CLARO/OI
+🔰 CONFIG SSL + SSLPAY
+
+🇧🇷 ATUALIZAÇÃO DE SERVIDOR BRASILEIRO E CERTIFICADOS🇧🇷
+
+🔰ALGUMAS CORREÇÕES 🔰
+
+A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
+
+⚙️ CONFIGURAÇÃO V2
+🗓️ DATA: 31/03/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -44,6 +55,16 @@
       "USER": "",
       "PASS": ""
     }
+{
+      "Name": "SERVIDOR L",
+      "TYPE": "free",
+      "FLAG": "ca.png",
+      "ServerIP": "sshws-ca.serverkit.me",
+      "ServerPort": "22",
+      "SSLPort": "443",
+      "USER": "",
+      "PASS": ""
+    }
   ],
   "Networks": [
     {
@@ -80,6 +101,16 @@
       "Name": "VIVO - CLARO - TIM - OI BR4",
       "FLAG": "vivo",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "UNIVERSAL L NET",
+      "FLAG": "claro",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: sshws-ca.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
