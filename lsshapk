@@ -1,8 +1,8 @@
 {
-  "Version": "1.0.10",
+  "Version": "1.0.11",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
-🔰 CONFIG SSL + SSLPAY
+🔰 CONFIG SSL + PROXY
 
 🇧🇷 ATUALIZAÇÃO DE SERVIDOR BRASILEIRO E CERTIFICADOS🇧🇷
 
@@ -59,11 +59,11 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Name": "SERVIDOR US1",
       "TYPE": "free",
       "FLAG": "us.png",
-      "ServerIP": "sshws-us1.serverkit.me",
+      "ServerIP": "sshws-sg1.serverkit.me",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "lionssh-dsd434323232",
-      "PASS": "32435435453"
+      "USER": "lionssh-fddf3rdfq3",
+      "PASS": "r3qedfdsf3"
     },
   ],
   "Networks": [
@@ -150,7 +150,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "PLAYLOAD USA1",
       "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: sshws-us1.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: sshws-sg1.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
