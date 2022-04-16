@@ -8,10 +8,10 @@
 
 🔰ALGUMAS CORREÇÕES 🔰
 
-A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
+A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 
-⚙️ CONFIGURAÇÃO V2
-🗓️ DATA: 31/03/2022",
+⚙️ CONFIGURAÇÃO NOVA!
+🗓️ DATA: 16/04/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -56,19 +56,19 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
       "PASS": ""
     },
 {
-      "Name": "SERVIDOR L | FREE",
+      "Name": "SERVIDOR US1",
       "TYPE": "free",
-      "FLAG": "ca.png",
-      "ServerIP": "sshws-ca.serverkit.me",
+      "FLAG": "us.png",
+      "ServerIP": "sshws-us1.serverkit.me",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "lionssh-naldogay",
-      "PASS": "123456"
+      "USER": "lionssh-dsd434323232",
+      "PASS": "32435435453"
     },
   ],
   "Networks": [
     {
-      "Name": "VIVO PROXY 01 BR-03",
+      "Name": "VIVO BR-03",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -78,8 +78,28 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO - CLARO - TIM - OI BR3",
-      "FLAG": "vivo",
+      "Name": "CLARO BR-03",
+      "FLAG": "claro",
+      "Payload": "GET ws://gersonclaro.com.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "gersonclaro.com.br",
+      "TlsIP": "gersonclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+    {
+      "Name": "TIM BR-03",
+      "FLAG": "tim",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+        {
+      "Name": "OI BR-03",
+      "FLAG": "oi",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
@@ -88,7 +108,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
       "Info": "Tlsws"
     },
 {
-      "Name": "VIVO PROXY 01 BR-04",
+      "Name": "VIVO BR-04",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -98,8 +118,28 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
       "Info": "Proxy"
     },
 {
-      "Name": "VIVO - CLARO - TIM - OI BR4",
-      "FLAG": "vivo",
+      "Name": "CLARO BR4",
+      "FLAG": "claro",
+      "Payload": "GET ws://gersonclaro.com.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "gersonclaro.com.br",
+      "TlsIP": "gersonclaro.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+        {
+      "Name": "TIM BR-04",
+      "FLAG": "tim",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+        {
+      "Name": "OI BR-04",
+      "FLAG": "oi",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
@@ -108,9 +148,9 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE EM ALGUNS DDDS!!
       "Info": "Tlsws"
     },
     {
-      "Name": "UNIVERSAL L NET",
-      "FLAG": "claro",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: sshws-ca.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
+      "Name": "PLAYLOAD USA1",
+      "FLAG": "vivo",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: sshws-us1.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
       "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
