@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.12",
+  "Version": "1.0.14",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -11,7 +11,7 @@
 A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 
 ⚙️ CONFIGURAÇÃO NOVA!
-🗓️ DATA: 17/04/2022",
+🗓️ DATA: 18/04/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -116,6 +116,16 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "ssl"
+    },
+    {
+      "Name": "VIVO PROXY BR-04",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.57.6",
+      "ProxyPort": "80",
+      "Info": "proxy"
     },
 {
       "Name": "CLARO BR4",
