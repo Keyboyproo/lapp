@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.11",
+  "Version": "1.0.12",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -70,12 +70,12 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "VIVO BR-03",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "ssl"
     },
 {
       "Name": "CLARO BR-03",
@@ -110,12 +110,12 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 {
       "Name": "VIVO BR-04",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "80",
-      "Info": "Proxy"
+      "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "ssl"
     },
 {
       "Name": "CLARO BR4",
@@ -150,12 +150,12 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "PLAYLOAD USA1",
       "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: sshws-sg1.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: sshws-sg1.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Tlsws"
+      "Info": "ssl"
     },
   ]
 }
