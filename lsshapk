@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.16",
+  "Version": "1.0.17",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -11,7 +11,7 @@
 A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 
 ⚙️ CONFIGURAÇÃO NOVA!
-🗓️ DATA: 18/04/2022",
+🗓️ DATA: 03/05/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -58,8 +58,8 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 {
       "Name": "SERVIDOR OFF",
       "TYPE": "free",
-      "FLAG": "us.png",
-      "ServerIP": "sshws-sg1.serverkit.me",
+      "FLAG": "ca.png",
+      "ServerIP": "ca.serverkit.me",
       "ServerPort": "22",
       "SSLPort": "443",
       "USER": "",
@@ -81,9 +81,9 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Name": "VIVO PROXY BR-03",
       "FLAG": "vivo",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.57.6",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "proxy"
     },
@@ -111,8 +111,8 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Name": "OI $ VIVO BR-03",
       "FLAG": "oi",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -131,9 +131,9 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Name": "VIVO PROXY BR-04",
       "FLAG": "vivo",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.16.57.6",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
+      "ProxyIP": "104.16.18.94",
       "ProxyPort": "80",
       "Info": "proxy"
     },
@@ -160,9 +160,9 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
         {
       "Name": "OI BR-04",
       "FLAG": "oi",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "www.hbogo.com.br",
+      "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -170,9 +170,9 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "PLAYLOAD OFF",
       "FLAG": "vivo",
-      "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: sshws-sg1.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "celular.vivo.com.br",
+      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: ca.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "mobilidade.cloud.caixa.gov.br",
+      "TlsIP": "mobilidade.cloud.caixa.gov.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "ssl"
