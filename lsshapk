@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.15",
+  "Version": "1.0.16",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -56,33 +56,43 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "PASS": ""
     },
 {
-      "Name": "SERVIDOR US1",
+      "Name": "SERVIDOR OFF",
       "TYPE": "free",
       "FLAG": "us.png",
       "ServerIP": "sshws-sg1.serverkit.me",
       "ServerPort": "22",
       "SSLPort": "443",
-      "USER": "lionssh-fddf3rdfq3",
-      "PASS": "r3qedfdsf3"
+      "USER": "",
+      "PASS": ""
     },
   ],
   "Networks": [
     {
       "Name": "VIVO BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "celular.vivo.com.br",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "ssl"
     },
+       {
+      "Name": "VIVO PROXY BR-03",
+      "FLAG": "vivo",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.16.57.6",
+      "ProxyPort": "80",
+      "Info": "proxy"
+    },
 {
       "Name": "CLARO BR-03",
       "FLAG": "claro",
-      "Payload": "GET ws://gersonclaro.com.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "gersonclaro.com.br",
-      "TlsIP": "gersonclaro.com.br",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
@@ -98,7 +108,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Info": "Tlsws"
     },
         {
-      "Name": "OI BR-03",
+      "Name": "OI $ VIVO BR-03",
       "FLAG": "oi",
       "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "mobilidade.cloud.caixa.gov.br",
@@ -110,9 +120,9 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 {
       "Name": "VIVO BR-04",
       "FLAG": "vivo",
-      "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "celular.vivo.com.br",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "cdnjs.cloudflare.com",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "ssl"
@@ -120,7 +130,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "VIVO PROXY BR-04",
       "FLAG": "vivo",
-      "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "",
       "ProxyIP": "104.16.57.6",
@@ -130,7 +140,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 {
       "Name": "CLARO BR4",
       "FLAG": "claro",
-      "Payload": "GET ws://gersonclaro.com.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gersonclaro.com.br",
       "TlsIP": "gersonclaro.com.br",
       "ProxyIP": "",
@@ -158,7 +168,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Info": "Tlsws"
     },
     {
-      "Name": "PLAYLOAD USA1",
+      "Name": "PLAYLOAD OFF",
       "FLAG": "vivo",
       "Payload": "GET ws://celular.vivo.com.br/ HTTP/1.1[crlf]Host: sshws-sg1.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "celular.vivo.com.br",
