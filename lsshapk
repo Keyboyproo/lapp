@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.17",
+  "Version": "1.0.18",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -11,7 +11,7 @@
 A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 
 ⚙️ CONFIGURAÇÃO NOVA!
-🗓️ DATA: 03/05/2022",
+🗓️ DATA: 05/05/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -80,10 +80,10 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
        {
       "Name": "VIVO PROXY BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "104.16.18.94",
+      "Payload": "GET ws://br3.myconnectway.xyz HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "br3.myconnectway.xyz",
+      "TlsIP": "br3.myconnectway.xyz",
+      "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
       "Info": "proxy"
     },
@@ -130,10 +130,10 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "VIVO PROXY BR-04",
       "FLAG": "vivo",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "104.16.18.94",
+      "Payload": "GET ws://br3.myconnectway.xyz HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "br3.myconnectway.xyz",
+      "TlsIP": "br3.myconnectway.xyz",
+      "ProxyIP": "104.16.19.94",
       "ProxyPort": "80",
       "Info": "proxy"
     },
@@ -170,12 +170,12 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "PLAYLOAD OFF",
       "FLAG": "vivo",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: ca.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "ssl"
+      "Payload": "GET ws://ca.serverkit.meHTTP/1.1[crlf]Host: ca.serverkit.me[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "ca.serverkit.me",
+      "TlsIP": "ca.serverkit.me",
+      "ProxyIP": "104.16.19.94",
+      "ProxyPort": "80",
+      "Info": "proxy"
     },
   ]
 }
