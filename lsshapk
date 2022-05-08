@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.26",
+  "Version": "1.0.27",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -60,7 +60,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
        {
       "Name": "VIVO SSL VIEW BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ssl://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "viewonline.clinicallabmanager.com",
       "TlsIP": "viewonline.clinicallabmanager.com",
       "ProxyIP": "104.16.56.6",
@@ -70,7 +70,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   {
       "Name": "VIVO SSL PLANOS BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ssl://planos.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://planos.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "planos.vivo.com.br",
       "TlsIP": "planos.vivo.com.br",
       "ProxyIP": "",
@@ -80,7 +80,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   {
       "Name": "VIVO SSL VIGIA BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ssl://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
       "TlsIP": "vigia.vivo.com.br",
       "ProxyIP": "",
@@ -100,7 +100,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "TIM BR-03",
       "FLAG": "tim",
-      "Payload": "GET sni://emartim.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://emartim.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "emartim.com.br",
       "TlsIP": "emartim.com.br",
       "ProxyIP": "",
@@ -110,7 +110,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
    {
       "Name": "TIM SSL BR-03",
       "FLAG": "tim",
-      "Payload": "GET sni://static.r4you.co HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "static.r4you.co",
       "TlsIP": "static.r4you.co",
       "ProxyIP": "",
@@ -131,7 +131,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "VIVO SSL VIEW BR-04",
       "FLAG": "vivo",
-      "Payload": "GET ssl://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "viewonline.clinicallabmanager.com",
       "TlsIP": "viewonline.clinicallabmanager.com",
       "ProxyIP": "104.16.56.6",
@@ -141,7 +141,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
    {
       "Name": "VIVO SSL PLANOS BR-04",
       "FLAG": "vivo",
-      "Payload": "GET ssl://planos.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://planos.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "planos.vivo.com.br",
       "TlsIP": "planos.vivo.com.br",
       "ProxyIP": "",
@@ -151,7 +151,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   {
       "Name": "VIVO SSL VIGIA BR-04",
       "FLAG": "vivo",
-      "Payload": "GET ssl://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
       "TlsIP": "vigia.vivo.com.br",
       "ProxyIP": "",
@@ -162,7 +162,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
    {
       "Name": "CLARO BR4",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
@@ -172,7 +172,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "TIM BR-04",
       "FLAG": "tim",
-      "Payload": "GET ws://emartim.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://emartim.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "emartim.com.br",
       "TlsIP": "emartim.com.br",
       "ProxyIP": "",
@@ -182,7 +182,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   {
       "Name": "TIM SSL BR-04",
       "FLAG": "tim",
-      "Payload": "GET sni://static.r4you.co HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "static.r4you.co",
       "TlsIP": "static.r4you.co",
       "ProxyIP": "",
@@ -192,7 +192,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
    {
       "Name": "OI BR-04",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
