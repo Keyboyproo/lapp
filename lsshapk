@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.25",
+  "Version": "1.0.26",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -57,16 +57,6 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     },
   ],
   "Networks": [
-{
-      "Name": "VIVO BR-03",
-      "FLAG": "vivo",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "ssl"
-    },
        {
       "Name": "VIVO SSL VIEW BR-03",
       "FLAG": "vivo",
@@ -100,7 +90,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
    {
       "Name": "CLARO BR-03",
       "FLAG": "claro",
-      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "no.descomplica.com.br",
       "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
@@ -130,23 +120,14 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
    {
       "Name": "OI BR-03",
       "FLAG": "oi",
-      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-   {
-      "Name": "VIVO BR-04",
-      "FLAG": "vivo",
-      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "ssl"
-    },
+  
     {
       "Name": "VIVO SSL VIEW BR-04",
       "FLAG": "vivo",
