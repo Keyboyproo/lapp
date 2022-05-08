@@ -127,7 +127,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "443",
       "Info": "ssl"
     },
-        {
+   {
       "Name": "OI BR-03",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
@@ -177,7 +177,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "443",
       "Info": "ssl"
     },
-{
+
 {
       "Name": "CLARO BR4",
       "FLAG": "claro",
@@ -188,7 +188,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-        {
+    {
       "Name": "TIM BR-04",
       "FLAG": "tim",
       "Payload": "GET ws://emartim.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
@@ -208,7 +208,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "443",
       "Info": "ssl"
     },
-        {
+   {
       "Name": "OI BR-04",
       "FLAG": "oi",
       "Payload": "GET ws://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
