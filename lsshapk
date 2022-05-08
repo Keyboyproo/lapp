@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.23",
+  "Version": "1.0.24",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -57,7 +57,6 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     },
   ],
   "Networks": [
-____________________________________________________ 
    {
       "Name": "VIVO BR-03",
       "FLAG": "vivo",
@@ -138,7 +137,6 @@ ____________________________________________________
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-____________________________________________________
 {
       "Name": "VIVO BR-04",
       "FLAG": "vivo",
