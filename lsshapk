@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.29",
+  "Version": "1.0.30",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -76,7 +76,7 @@ br3.myconnectway.xyz[crlf][upws][crlf][crlf]",
       "TlsIP": "planos.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "ssl"
+      "Info": "Tlsws"
     },
   {
       "Name": "VIVO SSL VIGIA BR-03",
@@ -86,7 +86,7 @@ br3.myconnectway.xyz[crlf][upws][crlf][crlf]",
       "TlsIP": "vigia.vivo.com.br",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "ssl"
+      "Info": "Tlsws"
     },
    {
       "Name": "CLARO BR-03",
