@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.22",
+  "Version": "1.0.23",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -57,7 +57,8 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     },
   ],
   "Networks": [
-    {
+____________________________________________________ 
+   {
       "Name": "VIVO BR-03",
       "FLAG": "vivo",
       "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
@@ -137,6 +138,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+____________________________________________________
 {
       "Name": "VIVO BR-04",
       "FLAG": "vivo",
