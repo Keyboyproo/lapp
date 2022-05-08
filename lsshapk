@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.19",
+  "Version": "1.0.20",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -68,14 +68,34 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Info": "ssl"
     },
        {
-      "Name": "VIVO PROXY BR-03",
+      "Name": "VIVO SSL VIEW BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ws://br3.myconnectway.xyz HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "br3.myconnectway.xyz",
-      "TlsIP": "br3.myconnectway.xyz",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "80",
-      "Info": "proxy"
+      "Payload": "GET ssl://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "viewonline.clinicallabmanager.com",
+      "TlsIP": "viewonline.clinicallabmanager.com",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "443",
+      "Info": "ssl"
+    },
+{
+      "Name": "VIVO SSL PLANOS BR-03",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://planos.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "planos.vivo.com.br",
+      "TlsIP": "planos.vivo.com.br",
+      "ProxyIP": "planos.vivo.com.br",
+      "ProxyPort": "443",
+      "Info": "ssl"
+    },
+{
+      "Name": "VIVO SSL VIGIA BR-03",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "vigia.vivo.com.br",
+      "ProxyIP": "vigia.vivo.com.br",
+      "ProxyPort": "443",
+      "Info": "ssl"
     },
 {
       "Name": "CLARO BR-03",
@@ -90,12 +110,22 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     {
       "Name": "TIM BR-03",
       "FLAG": "tim",
-      "Payload": "GET sni://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "cdnjs.cloudflare.com",
-      "ProxyIP": "104.16.18.94",
+      "Payload": "GET sni://emartim.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "emartim.com.br",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
+{
+      "Name": "TIM SSL BR-03",
+      "FLAG": "tim",
+      "Payload": "GET sni://static.r4you.co HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "ssl"
     },
         {
       "Name": "OI BR-03",
@@ -118,15 +148,36 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "Info": "ssl"
     },
     {
-      "Name": "VIVO PROXY BR-04",
+      "Name": "VIVO SSL VIEW BR-04",
       "FLAG": "vivo",
-      "Payload": "GET ws://br3.myconnectway.xyz HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "br3.myconnectway.xyz",
-      "TlsIP": "br3.myconnectway.xyz",
-      "ProxyIP": "104.16.19.94",
-      "ProxyPort": "80",
-      "Info": "proxy"
+      "Payload": "GET ssl://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "viewonline.clinicallabmanager.com",
+      "TlsIP": "viewonline.clinicallabmanager.com",
+      "ProxyIP": "104.16.56.6",
+      "ProxyPort": "443",
+      "Info": "ssl"
     },
+{
+      "Name": "VIVO SSL PLANOS BR-04",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://planos.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "planos.vivo.com.br",
+      "TlsIP": "planos.vivo.com.br",
+      "ProxyIP": "planos.vivo.com.br",
+      "ProxyPort": "443",
+      "Info": "ssl"
+    },
+{
+      "Name": "VIVO SSL VIGIA BR-04",
+      "FLAG": "vivo",
+      "Payload": "GET ssl://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "vigia.vivo.com.br",
+      "ProxyIP": "vigia.vivo.com.br",
+      "ProxyPort": "443",
+      "Info": "ssl"
+    },
+{
 {
       "Name": "CLARO BR4",
       "FLAG": "claro",
@@ -140,12 +191,22 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
         {
       "Name": "TIM BR-04",
       "FLAG": "tim",
-      "Payload": "GET ws://mobilidade.cloud.caixa.gov.br/ HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "104.16.56.6",
+      "Payload": "GET ws://emartim.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "emartim.com.br",
+      "TlsIP": "emartim.com.br",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
+{
+      "Name": "TIM SSL BR-04",
+      "FLAG": "tim",
+      "Payload": "GET sni://static.r4you.co HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "static.r4you.co",
+      "TlsIP": "static.r4you.co",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "ssl"
     },
         {
       "Name": "OI BR-04",
