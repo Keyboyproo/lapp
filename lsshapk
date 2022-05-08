@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.27",
+  "Version": "1.0.28",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -60,7 +60,8 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
        {
       "Name": "VIVO SSL VIEW BR-03",
       "FLAG": "vivo",
-      "Payload": "GET wss://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ssl://viewonline.clinicallabmanager.com [protocol][crlf]Host:
+br3.myconnectway.xyz[crlf][upws][crlf][crlf]",
       "SNI": "viewonline.clinicallabmanager.com",
       "TlsIP": "viewonline.clinicallabmanager.com",
       "ProxyIP": "104.16.56.6",
