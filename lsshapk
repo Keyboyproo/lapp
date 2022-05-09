@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.31",
+  "Version": "1.0.32",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -58,33 +58,33 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   ],
   "Networks": [
        {
-      "Name": "VIVO SSL VIEW BR-03",
+      "Name": "VIVO SSL 1 BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ssl://viewonline.clinicallabmanager.com [protocol][crlf]Host:
+      "Payload": "GET ssl://celular.vivo.com.br [protocol][crlf]Host:
 br3.myconnectway.xyz[crlf][upws][crlf][crlf]",
-      "SNI": "viewonline.clinicallabmanager.com",
-      "TlsIP": "viewonline.clinicallabmanager.com",
-      "ProxyIP": "104.16.56.6",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
+      "ProxyIP": "celular.vivo.com.br",
       "ProxyPort": "443",
       "Info": "Ssl"
     },
   {
-      "Name": "VIVO SSL PLANOS BR-03",
+      "Name": "VIVO SSL 2 BR-03",
       "FLAG": "vivo",
-      "Payload": "GET wss://planos.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "planos.vivo.com.br",
-      "TlsIP": "planos.vivo.com.br",
-      "ProxyIP": "",
+      "Payload": "GET wss://compre.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "compre.vivo.com.br",
+      "TlsIP": "compre.vivo.com.br",
+      "ProxyIP": "compre.vivo.com.br",
       "ProxyPort": "443",
       "Info": "Ssl"
     },
   {
-      "Name": "VIVO SSL VIGIA BR-03",
+      "Name": "VIVO SSL 3 BR-03",
       "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "vigia.vivo.com.br",
-      "ProxyIP": "",
+      "Payload": "GET wss://unpkg.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "unpkg.com",
+      "TlsIP": "unpkg.com",
+      "ProxyIP": "unpkg.com",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
@@ -128,36 +128,36 @@ br3.myconnectway.xyz[crlf][upws][crlf][crlf]",
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
-  
-    {
-      "Name": "VIVO SSL VIEW BR-04",
-      "FLAG": "vivo",
-      "Payload": "GET wss://viewonline.clinicallabmanager.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "viewonline.clinicallabmanager.com",
-      "TlsIP": "viewonline.clinicallabmanager.com",
-      "ProxyIP": "104.16.56.6",
-      "ProxyPort": "443",
-      "Info": "ssl"
-    },
    {
-      "Name": "VIVO SSL PLANOS BR-04",
+      "Name": "VIVO SSL 1 BR-04",
       "FLAG": "vivo",
-      "Payload": "GET wss://planos.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "planos.vivo.com.br",
-      "TlsIP": "planos.vivo.com.br",
-      "ProxyIP": "",
+      "Payload": "GET ssl://celular.vivo.com.br [protocol][crlf]Host:
+br4.myconnectway.xyz[crlf][upws][crlf][crlf]",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
+      "ProxyIP": "celular.vivo.com.br",
       "ProxyPort": "443",
-      "Info": "ssl"
+      "Info": "Ssl"
     },
   {
-      "Name": "VIVO SSL VIGIA BR-04",
+      "Name": "VIVO SSL 2 BR-04",
       "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "vigia.vivo.com.br",
-      "ProxyIP": "",
+      "Payload": "GET wss://compre.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "compre.vivo.com.br",
+      "TlsIP": "compre.vivo.com.br",
+      "ProxyIP": "compre.vivo.com.br",
       "ProxyPort": "443",
-      "Info": "ssl"
+      "Info": "Ssl"
+    },
+  {
+      "Name": "VIVO SSL 3 BR-04",
+      "FLAG": "vivo",
+      "Payload": "GET wss://unpkg.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "unpkg.com",
+      "TlsIP": "unpkg.com",
+      "ProxyIP": "unpkg.com",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
 
    {
