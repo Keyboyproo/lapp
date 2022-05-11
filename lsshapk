@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.32",
+  "Version": "1.0.33",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -58,15 +58,14 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   ],
   "Networks": [
        {
-      "Name": "VIVO SSL 1 BR-03",
+      "Name": "VIVO Direct BR-03",
       "FLAG": "vivo",
-      "Payload": "GET ssl://celular.vivo.com.br [protocol][crlf]Host:
-br3.myconnectway.xyz[crlf][upws][crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "celular.vivo.com.br",
-      "ProxyIP": "celular.vivo.com.br",
-      "ProxyPort": "443",
-      "Info": "Ssl"
+      "Payload": "GET /? HTTP/1.0[lf] [crlf]Host: br3.myconnectway.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.18.6.80",
+      "ProxyPort": "80",
+      "Info": "proxy"
     },
   {
       "Name": "VIVO SSL 2 BR-03",
@@ -74,20 +73,10 @@ br3.myconnectway.xyz[crlf][upws][crlf][crlf]",
       "Payload": "GET wss://compre.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "compre.vivo.com.br",
       "TlsIP": "compre.vivo.com.br",
-      "ProxyIP": "compre.vivo.com.br",
+      "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Ssl"
-    },
-  {
-      "Name": "VIVO SSL 3 BR-03",
-      "FLAG": "vivo",
-      "Payload": "GET wss://unpkg.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "unpkg.com",
-      "TlsIP": "unpkg.com",
-      "ProxyIP": "unpkg.com",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
+   },
    {
       "Name": "CLARO BR-03",
       "FLAG": "claro",
