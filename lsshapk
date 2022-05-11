@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.34",
+  "Version": "1.0.35",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -58,25 +58,35 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
   ],
   "Networks": [
        {
-      "Name": "VIVO Direct BR-03",
+      "Name": "VIVO TLS BR-03",
       "FLAG": "vivo",
       "Payload": "GET /? HTTP/1.0[lf] [crlf]Host: br3.myconnectway.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
       "SNI": "",
-      "TlsIP": "",
+      "TlsIP": "104.18.6.80",
       "ProxyIP": "104.18.6.80",
-      "ProxyPort": "443",
-      "Info": "proxy"
+      "ProxyPort": "80",
+      "Info": "Tlsws"
     },
   {
       "Name": "VIVO SSL 2 BR-03",
       "FLAG": "vivo",
-      "Payload": "GET wss://compre.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "",
       "SNI": "compre.vivo.com.br",
-      "TlsIP": "compre.vivo.com.br",
+      "TlsIP": "",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Ssl"
    },
+ {
+      "Name": "VIVO DIRECT",
+      "FLAG": "vivo",
+      "Payload": "ACL HTTP/1.1[lf]Host: br3.myconnectway.xyz[lf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "",
+      "ProxyPort": "80",
+      "Info": "Direct"
+    },
    {
       "Name": "CLARO BR-03",
       "FLAG": "claro",
