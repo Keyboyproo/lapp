@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.36",
+  "Version": "1.0.37",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -57,76 +57,77 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
     },
   ],
   "Networks": [
-       {
-      "Name": "VIVO PROXY BR-03",
+    {
+      "Name": " VIVO ATUALIZADO",
       "FLAG": "vivo",
-      "Payload": "GET /? HTTP/1.0[lf] [crlf]Host: br3.myconnectway.xyz[lf]Upgrade: websocket[lf]Connection: Keep-Alive\nUser-Agent: [ua]\nReferer: [lf][lf]",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "104.18.6.80",
-      "ProxyPort": "80",
-      "Info": "proxy"
-    },
-  {
-      "Name": "VIVO SSL 2 BR-03",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br/ HTTP/1.1[crlf]Host: [host_port][crlf]Upgrade: Websocket[crlf]Connection: Keep-Alive[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "",
+      "Payload": "GET ssl://gedoc.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "gedoc.vivo.com.br",
+      "TlsIP": "104.18.6.80",
       "ProxyIP": "",
       "ProxyPort": "443",
-      "Info": "Ssl"
-   },
- {
-      "Name": "VIVO DIRECT",
-      "FLAG": "vivo",
-      "Payload": "HTTP/ 2\nHOST : vigia.vivo.com.br\n\n",
-      "SNI": "",
-      "TlsIP": "",
-      "ProxyIP": "",
-      "ProxyPort": "80",
-      "Info": "Direct"
+      "Info": "Tlsws"
     },
-   {
-      "Name": "CLARO BR-03",
-      "FLAG": "claro",
-      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "no.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+	    {
+       "Name": "VIVO 1 ",
+      "FLAG": "vivo",
+      "Payload": "GET ws:/celular.vivo.com.br HTTP/1.1\nHost: br3.myconnectway.xyz[app_host]\nUpgrade: ws\n\n",
+      "SNI": "celular.vivo.com.br",
+      "TlsIP": "celular.vivo.com.br",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
+     "Info": "Tlsws"
+     },
+    {,
+    "Name": "VIVO 2 ",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "[app_host]",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "",
+      "ProxyPort": "",
+     "Info": "Tlsws"
+  },
+    {
+      "Name": "Tim",
+      "FLAG": "tim",
+      "Payload": "GET ws://cdnjs.cloudflare.com HTTP/1.1\nHost: br3.myconnectway.xyz[app_host]\nUpgrade: ws\n\n",
+      "SNI": "cdnjs.cloudflare.com",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
     {
-      "Name": "TIM BR-03",
-      "FLAG": "tim",
-      "Payload": "GET wss://emartim.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "emartim.com.br",
-      "TlsIP": "emartim.com.br",
+      "Name": "Claro",
+      "FLAG": "claro",
+      "Payload": "GET ws://no.descomplica.com.br HTTP/1.1\nHost: br3.myconnectway.xyz[app_host]\nUpgrade: ws\n\n",
+      "SNI": "no.descomplica.com.br",
+      "TlsIP": "no.descomplica.com.br",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
     },
-   {
-      "Name": "TIM SSL BR-03",
-      "FLAG": "tim",
-      "Payload": "GET wss://static.r4you.co HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "static.r4you.co",
-      "TlsIP": "static.r4you.co",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "ssl"
-    },
-   {
-      "Name": "OI BR-03",
+    {
+      "Name": "Oi",
       "FLAG": "oi",
-      "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET ws://www.hbogo.com.br HTTP/1.1\nHost: br3.myconnectway.xyz[app_host]\nUpgrade: ws\n\n",
       "SNI": "www.hbogo.com.br",
       "TlsIP": "www.hbogo.com.br",
       "ProxyIP": "",
-      "ProxyPort": "443",
+      "ProxyPort": "",
       "Info": "Tlsws"
-    },
+     },
+     {
+     "Name": "Claro LENTO",
+      "FLAG": "Claro",
+      "Payload": "GET ws://content.akross.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "content.akross.com.br",
+      "TlsIP": "content.akross.com.br",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+     },
+
    {
       "Name": "VIVO SSL 1 BR-04",
       "FLAG": "vivo",
