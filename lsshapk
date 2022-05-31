@@ -82,7 +82,17 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "FLAG": "vivo",
       "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
-      "TlsIP": "104.16.18.94",
+      "TlsIP": "vigia.vivo.com.br",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
+     "Info": "Tlsws"
+  },
+   {
+    "Name": "VIVO 4 BR3",
+      "FLAG": "vivo",
+      "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "cname.vivo.com.br",
+      "TlsIP": "cname.vivo.com.br",
       "ProxyIP": "104.16.18.94",
       "ProxyPort": "443",
      "Info": "Tlsws"
