@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.41",
+  "Version": "1.0.42",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -80,11 +80,11 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
  {
     "Name": "VIVO 3 BR3",
       "FLAG": "vivo",
-      "Payload": "GET wss://no.descomplica.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "[app_host]",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "",
-      "ProxyPort": "",
+      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "vigia.vivo.com.br",
+      "TlsIP": "104.16.18.94",
+      "ProxyIP": "104.16.18.94",
+      "ProxyPort": "443",
      "Info": "Tlsws"
   },
       {
