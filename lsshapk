@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.53",
+  "Version": "1.0.54",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -100,7 +100,7 @@
       "Name": "🔵 VIVO PROXY BR3 🚀",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
+      "SNI": "br3.myconnectway.xyz",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
@@ -136,6 +136,26 @@
       "ProxyPort": "443",
       "Info": "Tlsws"
     },
+          {
+   "Name": "🚀TIM DIRECT BR🚀",
+   "FLAG": "tim",
+   "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "[app_host]",
+   "TlsIP": "104.16.18.94",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+      {
+      "Name": "🚀TIM [SSL 3]🚀",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: br3.myconnectway.xyz\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
+      "ProxyIP": "",
+      "ProxyPort": "",
+      "Info": "Tlsws"
+        },
 
     {
       "Name": "🚀 Oi BR3 🚀",
@@ -202,7 +222,7 @@
       "Name": "🔵 VIVO PROXY BR4 🚀",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "",
+      "SNI": "br4.myconnectway.xyz",
       "TlsIP": "104.18.7.80",
       "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
@@ -229,16 +249,36 @@
       "ProxyPort": "",
       "Info": "Tlsws"
      },
-    {
-      "Name": "🚀 Tim BR4 🚀",
+     {
+      "Name": "🚀 TIM BR4 🚀",
       "FLAG": "tim",
-      "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cdnjs.cloudflare.com",
-      "TlsIP": "104.16.18.94",
+      "Payload": "GET wss://bobcontents.bennuapp.com.br  HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "bobcontents.bennuapp.com.br",
+      "TlsIP": "104.18.239.79",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+          {
+   "Name": "🚀TIM DIRECT BR🚀",
+   "FLAG": "tim",
+   "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "[app_host]",
+   "TlsIP": "104.16.18.94",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "Tlsws"
+  },
+      {
+      "Name": "🚀TIM [SSL 3]🚀",
+      "FLAG": "tim",
+      "Payload": "GET wss://static.r4you.co HTTP/1.1\nHost: br4.myconnectway.xyz\nUpgrade: ws\n\n",
+      "SNI": "static.r4you.co",
+      "TlsIP": "104.26.5.175",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+        },
        {
       "Name": "🚀 Oi BR4 🚀",
       "FLAG": "oi",
