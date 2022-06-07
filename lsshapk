@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.46",
+  "Version": "1.0.47",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -207,7 +207,7 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "TlsIP": "",
       "ProxyIP": "104.24.10.16",
       "ProxyPort": "80",
-      "Info": "Proxy"
+      "Info": "Tlsws"
     },
       {
       "Name": "Claro BR4",
