@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.50",
+  "Version": "1.0.51",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -96,16 +96,16 @@
       "ProxyPort": "443",
      "Info": "Tlsws"
   },
-     {
-    "Name": "VIVO 5 BR3",
+   {
+      "Name": " VIVO PROXY BR3",
       "FLAG": "vivo",
-      "Payload": "GET ssl://mobilidade.cloud.caixa.gov.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "mobilidade.cloud.caixa.gov.br",
-      "TlsIP": "mobilidade.cloud.caixa.gov.br",
-      "ProxyIP": "162.159.135.63",
-      "ProxyPort": "443",
-     "Info": "Tlsws"
-  },
+      "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "104.24.10.16",
+      "ProxyIP": "104.24.10.16",
+      "ProxyPort": "80",
+      "Info": "PROXY"
+    },
    {
       "Name": "🔴CLARO [01]ON BR3",
       "FLAG": "claro",
@@ -126,7 +126,8 @@
       "ProxyPort": "",
       "Info": "Tlsws"
      },
- "Name": "🚀TIM BR3🚀",
+     {
+      "Name": "🚀TIM BR3🚀",
       "FLAG": "tim",
       "Payload": "GET wss://bobcontents.bennuapp.com.br  HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "bobcontents.bennuapp.com.br",
@@ -190,7 +191,7 @@
   {
       "Name": " VIVO PROXY BR4",
       "FLAG": "vivo",
-      "Payload": "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+      "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
       "TlsIP": "104.24.10.16",
       "ProxyIP": "104.24.10.16",
