@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.52",
+  "Version": "1.0.53",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -101,8 +101,8 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "104.24.10.16",
-      "ProxyIP": "104.24.10.16",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "PROXY"
     },
@@ -127,7 +127,7 @@
       "Info": "Tlsws"
      },
      {
-      "Name": "🟢 TIM BR3 🚀",
+      "Name": "🚀 TIM BR3 🚀",
       "FLAG": "tim",
       "Payload": "GET wss://bobcontents.bennuapp.com.br  HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "bobcontents.bennuapp.com.br",
@@ -138,7 +138,7 @@
     },
 
     {
-      "Name": "🟡 Oi BR3 🚀",
+      "Name": "🚀 Oi BR3 🚀",
       "FLAG": "oi",
       "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
@@ -148,7 +148,7 @@
       "Info": "Tlsws"
      },
        {
-   "Name": "🟡 OI PROXY BR3 🚀",
+   "Name": "🚀 OI PROXY BR3 🚀",
    "FLAG": "oi",
    "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
    "SNI": "[app_host]",
@@ -203,8 +203,8 @@
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "104.24.10.16",
-      "ProxyIP": "104.24.10.16",
+      "TlsIP": "104.18.7.80",
+      "ProxyIP": "104.18.7.80",
       "ProxyPort": "80",
       "Info": "PROXY"
     },
@@ -230,7 +230,7 @@
       "Info": "Tlsws"
      },
     {
-      "Name": "🟢 Tim BR4 🚀",
+      "Name": "🚀 Tim BR4 🚀",
       "FLAG": "tim",
       "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -240,7 +240,7 @@
       "Info": "Tlsws"
     },
        {
-      "Name": "🟡 Oi BR4 🚀",
+      "Name": "🚀 Oi BR4 🚀",
       "FLAG": "oi",
       "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
@@ -250,7 +250,7 @@
       "Info": "Tlsws"
      },
        {
-   "Name": "🟡 OI PROXY BR4 🚀",
+   "Name": "🚀 OI PROXY BR4 🚀",
    "FLAG": "oi",
    "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
    "SNI": "[app_host]",
