@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.51",
+  "Version": "1.0.52",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -10,7 +10,7 @@
 
 
 ⚙️ CONFIGURAÇÃO NOVA!
-🗓️ DATA: 07/06/2022",
+🗓️ DATA: 08/06/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -57,7 +57,7 @@
   ],
   "Networks": [
     {
-      "Name": " VIVO 1 BR3",
+      "Name": "🔵 VIVO 1 BR3 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -67,7 +67,7 @@
       "Info": "Tlsws"
     },
 	    {
-       "Name": "VIVO 2 BR3",
+       "Name": "🔵 VIVO 2 BR3 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://celular.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "celular.vivo.com.br",
@@ -77,7 +77,7 @@
      "Info": "Tlsws"
      },
  {
-    "Name": "VIVO 3 BR3",
+    "Name": "🔵 VIVO 3 BR3 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
@@ -87,7 +87,7 @@
      "Info": "Tlsws"
   },
    {
-    "Name": "VIVO 4 BR3",
+    "Name": "🔵 VIVO 4 BR3 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cname.vivo.com.br",
@@ -96,8 +96,8 @@
       "ProxyPort": "443",
      "Info": "Tlsws"
   },
-   {
-      "Name": " VIVO PROXY BR3",
+ {
+      "Name": "🔵 VIVO PROXY BR3 🚀",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -107,7 +107,7 @@
       "Info": "PROXY"
     },
    {
-      "Name": "🔴CLARO [01]ON BR3",
+      "Name": "🔴 CLARO NEW BR3 🚀",
       "FLAG": "claro",
       "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
       "SNI": "icanhazip.com",
@@ -117,7 +117,7 @@
       "Info": "Tlsws"
    },
          {
-     "Name": "Claro LENTO BR3",
+     "Name": "🔴 Claro LENTO BR3 ",
       "FLAG": "Claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "content.akross.com.br",
@@ -127,7 +127,7 @@
       "Info": "Tlsws"
      },
      {
-      "Name": "🚀TIM BR3🚀",
+      "Name": "🟢 TIM BR3 🚀",
       "FLAG": "tim",
       "Payload": "GET wss://bobcontents.bennuapp.com.br  HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "bobcontents.bennuapp.com.br",
@@ -138,7 +138,7 @@
     },
 
     {
-      "Name": "Oi BR3",
+      "Name": "🟡 Oi BR3 🚀",
       "FLAG": "oi",
       "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
@@ -147,9 +147,19 @@
       "ProxyPort": "",
       "Info": "Tlsws"
      },
+       {
+   "Name": "🟡 OI PROXY BR3 🚀",
+   "FLAG": "oi",
+   "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "[app_host]",
+   "TlsIP": "104.16.51.91",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "PROXY"
+      },
 
 {
-      "Name": " VIVO 1 BR4",
+      "Name": "🔵 VIVO 1 BR4 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "gedoc.vivo.com.br",
@@ -159,7 +169,7 @@
       "Info": "Tlsws"
     },
 	    {
-       "Name": "VIVO 2 BR4",
+       "Name": "🔵 VIVO 2 BR4 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://celular.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "celular.vivo.com.br",
@@ -169,7 +179,7 @@
      "Info": "Tlsws"
      },
  {
-    "Name": "VIVO 3 BR4",
+    "Name": "🔵 VIVO 3 BR4 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "vigia.vivo.com.br",
@@ -179,7 +189,7 @@
      "Info": "Tlsws"
   },
    {
-    "Name": "VIVO 4 BR4",
+    "Name": "🔵 VIVO 4 BR4 🚀",
       "FLAG": "vivo",
       "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cname.vivo.com.br",
@@ -189,7 +199,7 @@
      "Info": "Tlsws"
   },
   {
-      "Name": " VIVO PROXY BR4",
+      "Name": "🔵 VIVO PROXY BR4 🚀",
       "FLAG": "vivo",
       "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
@@ -199,18 +209,18 @@
       "Info": "PROXY"
     },
 
-      {
-      "Name": "Claro BR4",
+     {
+      "Name": "🔴 CLARO NEW BR4 🚀",
       "FLAG": "claro",
-      "Payload": "GET wss://atendimento.descomplica.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "atendimento.descomplica.com.br",
-      "TlsIP": "no.descomplica.com.br",
+      "Payload": "GET wss://icanhazip.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Connection: upgrade[crlf]Upgrade: websocket [crlf][crlf]",
+      "SNI": "icanhazip.com",
+      "TlsIP": "icanhazip.com",
       "ProxyIP": "",
       "ProxyPort": "",
       "Info": "Tlsws"
-    },
+   },
          {
-     "Name": "Claro LENTO BR4",
+     "Name": "🔴 Claro LENTO BR4 ",
       "FLAG": "Claro",
       "Payload": "GET wss://content.akross.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "content.akross.com.br",
@@ -220,7 +230,7 @@
       "Info": "Tlsws"
      },
     {
-      "Name": "Tim BR4",
+      "Name": "🟢 Tim BR4 🚀",
       "FLAG": "tim",
       "Payload": "GET wss://cdnjs.cloudflare.com HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "cdnjs.cloudflare.com",
@@ -229,9 +239,8 @@
       "ProxyPort": "",
       "Info": "Tlsws"
     },
-
-    {
-      "Name": "Oi BR4",
+       {
+      "Name": "🟡 Oi BR4 🚀",
       "FLAG": "oi",
       "Payload": "GET wss://www.hbogo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "www.hbogo.com.br",
@@ -240,5 +249,15 @@
       "ProxyPort": "",
       "Info": "Tlsws"
      },
+       {
+   "Name": "🟡 OI PROXY BR4 🚀",
+   "FLAG": "oi",
+   "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
+   "SNI": "[app_host]",
+   "TlsIP": "104.16.51.91",
+   "ProxyIP": "",
+   "ProxyPort": "443",
+   "Info": "PROXY"
+      },
   ]
 }
