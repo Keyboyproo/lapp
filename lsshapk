@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.48",
+  "Version": "1.0.49",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -8,10 +8,9 @@
 
 🔰ALGUMAS CORREÇÕES 🔰
 
-A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
 
 ⚙️ CONFIGURAÇÃO NOVA!
-🗓️ DATA: 2022",
+🗓️ DATA: 07/06/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -194,10 +193,10 @@ A VOLTA DAS 4 OPERADORAS. FUNCIONALIDADE TOTAL!!
       "FLAG": "vivo",
       "Payload": "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
       "SNI": "",
-      "TlsIP": "",
+      "TlsIP": "104.24.10.16",
       "ProxyIP": "104.24.10.16",
       "ProxyPort": "80",
-      "Info": "Tlsws"
+      "Info": "PROXY"
     },
 
       {
