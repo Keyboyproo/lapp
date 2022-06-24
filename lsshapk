@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.54",
+  "Version": "1.0.55",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -10,7 +10,7 @@
 
 
 ⚙️ CONFIGURAÇÃO NOVA!
-🗓️ DATA: 08/06/2022",
+🗓️ DATA: 24/06/2022",
   "UrlUpdate": "https://raw.githubusercontent.com/Keyboyproo/lapp/main/lsshapk",
   "Sms": "https://paste.anasor.com/paste.php?raw&id=6899",
   "EmailFeedback": "",
@@ -96,15 +96,25 @@
       "ProxyPort": "443",
      "Info": "Tlsws"
   },
- {
-      "Name": "🔵 VIVO PROXY BR3 🚀",
+{
+      "Name": "VIVO on1 br3",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "br3.myconnectway.xyz",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
-      "Info": "PROXY"
+      "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "api.bitso.com",
+      "TlsIP": "172.64.195.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
+{
+      "Name": "VIVO on2 br3",
+      "FLAG": "vivo",
+      "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: br3.myconnectway.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "api.bitso.com",
+      "TlsIP": "172.64.195.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
    {
       "Name": "🔴 CLARO NEW BR3 🚀",
@@ -218,17 +228,26 @@
       "ProxyPort": "443",
      "Info": "Tlsws"
   },
-  {
-      "Name": "🔵 VIVO PROXY BR4 🚀",
+{
+      "Name": "VIVO on1 br4",
       "FLAG": "vivo",
-      "Payload": "GET / HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "br4.myconnectway.xyz",
-      "TlsIP": "104.18.7.80",
-      "ProxyIP": "104.18.7.80",
-      "ProxyPort": "80",
-      "Info": "PROXY"
+      "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "api.bitso.com",
+      "TlsIP": "172.64.195.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
     },
-
+{
+      "Name": "VIVO on2 br4",
+      "FLAG": "vivo",
+      "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: br4.myconnectway.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "SNI": "api.bitso.com",
+      "TlsIP": "172.64.195.2",
+      "ProxyIP": "",
+      "ProxyPort": "443",
+      "Info": "Tlsws"
+    },
      {
       "Name": "🔴 CLARO NEW BR4 🚀",
       "FLAG": "claro",
