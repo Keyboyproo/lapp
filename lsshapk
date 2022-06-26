@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.55",
+  "Version": "1.0.56",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -56,48 +56,9 @@
     },
   ],
   "Networks": [
-    {
-      "Name": "🔵 VIVO 1 BR3 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-	    {
-       "Name": "🔵 VIVO 2 BR3 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://celular.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "celular.vivo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-     "Info": "Tlsws"
-     },
- {
-    "Name": "🔵 VIVO 3 BR3 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "vigia.vivo.com.br",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "443",
-     "Info": "Tlsws"
-  },
-   {
-    "Name": "🔵 VIVO 4 BR3 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: br3.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cname.vivo.com.br",
-      "TlsIP": "cname.vivo.com.br",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "443",
-     "Info": "Tlsws"
-  },
+
 {
-      "Name": "VIVO on1 br3",
+      "Name": "🔵 VIVO 1 BR3",
       "FLAG": "vivo",
       "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "api.bitso.com",
@@ -107,7 +68,7 @@
       "Info": "Tlsws"
     },
 {
-      "Name": "VIVO on2 br3",
+      "Name": "🔵 VIVO 2 BR3",
       "FLAG": "vivo",
       "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: br3.myconnectway.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "api.bitso.com",
@@ -115,6 +76,36 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵 VIVO 3 BR3",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.11.16",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+          },
+       {
+      "Name": "🔵 VIVO 4 BR3",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.24.34",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🔵 VIVO 5 BR3",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.25.34",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
    {
       "Name": "🔴 CLARO NEW BR3 🚀",
@@ -189,47 +180,7 @@
       },
 
 {
-      "Name": "🔵 VIVO 1 BR4 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://gedoc.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "gedoc.vivo.com.br",
-      "TlsIP": "104.18.6.80",
-      "ProxyIP": "",
-      "ProxyPort": "443",
-      "Info": "Tlsws"
-    },
-	    {
-       "Name": "🔵 VIVO 2 BR4 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://celular.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "celular.vivo.com.br",
-      "TlsIP": "celular.vivo.com.br",
-      "ProxyIP": "",
-      "ProxyPort": "",
-     "Info": "Tlsws"
-     },
- {
-    "Name": "🔵 VIVO 3 BR4 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://vigia.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "vigia.vivo.com.br",
-      "TlsIP": "vigia.vivo.com.br",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "443",
-     "Info": "Tlsws"
-  },
-   {
-    "Name": "🔵 VIVO 4 BR4 🚀",
-      "FLAG": "vivo",
-      "Payload": "GET wss://cname.vivo.com.br HTTP/1.1[crlf]Host: br4.myconnectway.xyz[crlf]Upgrade: websocket[crlf][crlf]",
-      "SNI": "cname.vivo.com.br",
-      "TlsIP": "cname.vivo.com.br",
-      "ProxyIP": "104.16.18.94",
-      "ProxyPort": "443",
-     "Info": "Tlsws"
-  },
-{
-      "Name": "VIVO on1 br4",
+      "Name": "🔵 VIVO 1 BR4",
       "FLAG": "vivo",
       "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "api.bitso.com",
@@ -239,7 +190,7 @@
       "Info": "Tlsws"
     },
 {
-      "Name": "VIVO on2 br4",
+      "Name": "🔵 VIVO 2 BR4",
       "FLAG": "vivo",
       "Payload": "GET wss://api.bitso.com/ HTTP/1.1[lf]Host: br4.myconnectway.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "api.bitso.com",
@@ -247,6 +198,36 @@
       "ProxyIP": "",
       "ProxyPort": "443",
       "Info": "Tlsws"
+    },
+    {
+      "Name": "🔵 VIVO 3 BR4",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.11.16",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+          },
+       {
+      "Name": "🔵 VIVO 4 BR4",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.24.34",
+      "ProxyPort": "80",
+      "Info": "Proxy"
+    },
+    {
+      "Name": "🔵 VIVO 5 BR4",
+      "FLAG": "vivo",
+      "Payload": "GET / HTTP/1.1[crlf]Host: [app_host][crlf]Upgrade: websocket[crlf][crlf]",
+      "SNI": "",
+      "TlsIP": "",
+      "ProxyIP": "104.24.25.34",
+      "ProxyPort": "80",
+      "Info": "Proxy"
     },
      {
       "Name": "🔴 CLARO NEW BR4 🚀",
