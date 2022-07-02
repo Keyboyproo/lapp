@@ -1,5 +1,5 @@
 {
-  "Version": "1.0.58",
+  "Version": "1.0.59",
   "ReleaseNotes": "🔰 ESTABILIZAÇÃO
 🔰 VIVO / OI / TIM / CLARO/OI
 🔰 CONFIG SSL + PROXY
@@ -192,7 +192,7 @@
 {
       "Name": "🔵 VIVO 2 BR4",
       "FLAG": "vivo",
-      "Payload": "GET wss://live.vivo.com.br/ HTTP/1.1[lf]Host: br4.myconnectway.xyz[lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
+      "Payload": "GET wss://live.vivo.com.br/ HTTP/1.1[lf]Host: [app_host][lf]Proxy-Connection: Keep-Alive[lf]User-Agent: [ua][lf]Connection: upgrade[lf]Upgrade: websocket[lf]Sec-Websocket-Extensions: superspeed[lf][lf]",
       "SNI": "live.vivo.com.br",
       "TlsIP": "live.vivo.com.br",
       "ProxyIP": "",
